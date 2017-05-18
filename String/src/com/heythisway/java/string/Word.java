@@ -1,5 +1,7 @@
 package com.heythisway.java.string;
 
+import java.util.ArrayList;
+
 public class Word {
 
 	public static void main(String[] args) {
@@ -31,6 +33,9 @@ public class Word {
 		// 6. 글자 치환
 		String 바뀐글 = name.replace("하", "랄랄라");
 		System.out.println(바뀐글);
+		
+		ArrayList<String> arrayList = new ArrayList<String>();
+		arrayList.
 	}
 	
 }
